@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { recipeCardStyle, recipeCardImageStyle } from './styles'
 import placeholderImage from './react-logo.png'
 
-const RecipeCard = (props) => (
-  <div>
-    {/* 2 Display the placholder image */}
-
-    {/* 3.1 Add the title of the actual recipe */}
-    {/* 3.2 Use the recipe's image */}
-
-    {/* 4.1 The recipes are a bit of a mess → add the container style */}
-    {/* 4.2 Much better! But still not very nice → add the card’s style` */}
-  </div>
-)
+class RecipeCard extends Component {
+  render() {
+    return (
+      // 4.2 Much better! But still not very nice → add the card’s style here`
+      <div>
+        I am a recipe card
+        {/* 2 Display the placholder image */}
+        {/* <img  */}
+        {/*  */}
+        {/* 3.1 Present the recipe's title */}
+        {/* 3.2  Present the recipe's image */}
+        {/*  */}
+        {/* 4.3 style the images */}
+      </div>
+    )
+  }
+}
 
 export default RecipeCard
