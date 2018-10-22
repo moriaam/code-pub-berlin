@@ -1,12 +1,14 @@
 # Code Pub Berlin
 
-<img src="https://user-images.githubusercontent.com/7669672/47314406-d20bb100-d641-11e8-829a-d0ce2b48635d.png" alt="code-pub-logo" height=200px />
+<img src="https://user-images.githubusercontent.com/7669672/47314406-d20bb100-d641-11e8-829a-d0ce2b48635d.png" alt="code-pub-logo" height=250px />
 
-## Install
+## Getting Started
+
+Clone the project
 
 Run `yarn install` or `npm install`
 
-Run `yarn` or `npm start`
+Run `yarn start` or `npm start`
 
 Then open http://localhost:3000 to see your app.
 
