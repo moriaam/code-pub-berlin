@@ -40,6 +40,7 @@ Then open http://localhost:3000 to see your app.
 
    1. Beautify recipeContainer
    1. Beautify recipeCard
+   1. Beautify the image
 
    💡 Use the styles we imported for you
 

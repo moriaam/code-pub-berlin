@@ -12,6 +12,10 @@ class App extends Component {
     this.state = { filteredResults: [] }
   }
 
+  handleFilteredResults = (results) => (
+    this.setState({ filteredResults: results})
+  )
+
   render() {
     const { filteredResults } = this.state
     let recipesToShow = filteredResults.length > 0 ? filteredResults : recipesData.recipes
@@ -20,7 +24,7 @@ class App extends Component {
       <div style={{ textAlign: 'center' }}>
         <Header style={{ marginBottom: 20 }} />
 
-        <SearchBar recipesData={recipesData} />
+        <SearchBar recipesData={recipesData} onFilter={this.handleFilteredResults} />
 
         <h1>Here is where you start your task - Edit src/App.js and save to reload.</h1>
 
