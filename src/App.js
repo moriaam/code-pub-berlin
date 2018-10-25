@@ -12,9 +12,7 @@ class App extends Component {
     this.state = { filteredResults: [] }
   }
 
-  handleFilteredResults = (results) => (
-    this.setState({ filteredResults: results})
-  )
+  handleFilteredResults = (results) => this.setState({ filteredResults: results })
 
   render() {
     const { filteredResults } = this.state
@@ -22,7 +20,7 @@ class App extends Component {
 
     return (
       <div style={{ textAlign: 'center' }}>
-        <Header style={{ marginBottom: 20 }} />
+        <Header />
 
         <SearchBar recipesData={recipesData} onFilter={this.handleFilteredResults} />
 
