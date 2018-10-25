@@ -16,7 +16,7 @@ const recipeCardImageStyle = {
   marginBottom: 5,
 }
 
-const recipesContainer = {
+const recipesContainerStyle = {
   columnWidth: 320,
   columnGap: 15,
   width: '90%',
@@ -25,4 +25,4 @@ const recipesContainer = {
   margin: '50px auto',
 }
 
-export { recipeCardStyle, recipeCardImageStyle, recipesContainer }
+export { recipeCardStyle, recipeCardImageStyle, recipesContainerStyle }

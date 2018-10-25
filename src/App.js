@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import recipesData from './recipes'
 import Header from './Header'
 import SearchBar from './SearchBar'
-import { recipesContainer } from './styles'
+import { recipesContainerStyle } from './styles'
 // 1.1 Import the RecipeCard component here
 
 class App extends Component {

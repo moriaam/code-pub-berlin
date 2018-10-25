@@ -4,6 +4,12 @@
 
 ## Getting Started
 
+### Prerequisites: 
+- Node
+- Text Editor (Visual Studio recommended)
+
+Or use the [online IDE](https://tinyurl.com/codepubberlin) and skip to the [workshop](#workshop)
+
 Clone the project
 
 Run `yarn install` or `npm install`
