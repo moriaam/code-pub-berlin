@@ -4,7 +4,8 @@
 
 ## Getting Started
 
-### Prerequisites: 
+### Prerequisites:
+
 - Node
 - Text Editor (Visual Studio recommended)
 
@@ -54,5 +55,17 @@ Hurray! You're done! 👏
    1. Display the recipe
 
    💡 Remember what we learned about the state
+
+## Read more
+
+- [style](https://reactjs.org/docs/faq-styling.html)
+- [map function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- {} → [curly braces](https://stackoverflow.com/questions/43904825/what-do-curly-braces-mean-in-jsx-react)
+- <> → [JSX](https://reactjs.org/docs/introducing-jsx.html)
+- [passing functions](https://reactjs.org/docs/faq-functions.html)
+- [state](https://reactjs.org/docs/faq-state.html)
+- [json files](https://fileinfo.com/extension/json)
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
